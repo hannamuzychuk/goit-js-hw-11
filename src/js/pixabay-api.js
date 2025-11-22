@@ -8,12 +8,11 @@ export function getImagesByQuery(query) {
         key: API_KEY,
         q: query,
         image_type: 'photo',
-        orientation: ' horizontal',
+        orientation: 'horizontal',
         safesearch: true,
     };
 
     return axios
         .get(BASE_URL, { params })
-        .then(responce => responce.data);
-    
+        .then(responce => responce.data); 
 }
