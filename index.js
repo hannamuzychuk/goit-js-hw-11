@@ -4,10 +4,10 @@ import{a as c,S as l,i as s}from"./assets/vendor-Cq7ZUixy.js";(function(){const 
                         <img src="${e.webformatURL}" alt="${e.tags}" loading lazy />
                     </a>
                     <div class="info">
-                     <p><b>Likes</b>${e.likes}</p>
-                     <p><b>Views</b>${e.views}</p>
-                     <p><b>Comments</b>${e.comments}</p>
-                     <p><b>Downloads</b>${e.downloads}</p>
+                     <p><b>Likes </b>${e.likes}</p>
+                     <p><b>Views </b>${e.views}</p>
+                     <p><b>Comments </b>${e.comments}</p>
+                     <p><b>Downloads </b>${e.downloads}</p>
                     </div>
                 </li>`).join("");m.innerHTML=o,d.refresh()}const y=document.querySelector(".form"),g=document.querySelector('input[name="search-text"]');y.addEventListener("submit",b);function b(n){n.preventDefault();const o=g.value.trim();if(!o){s.error({title:"Error",message:"Search field cannot be empty!",position:"topRight"});return}p(o).then(e=>{if(e.hits.length===0){s.error({title:"Error",message:"Sorry, there are no images matching your search query. Please try again!",position:"topRight"});return}h(e.hits)}).catch(e=>{console.error(e),s.error({title:"Error",message:"Something went wrong!",position:"topRight"})}).finally(()=>{})}
 //# sourceMappingURL=index.js.map
