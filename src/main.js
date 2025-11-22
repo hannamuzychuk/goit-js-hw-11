@@ -59,6 +59,7 @@ function handleOnSearch(event) {
                 position: 'topRight',
             });
         })
+        
         .finally(() => {
             hideLoader();
         });
