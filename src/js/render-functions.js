@@ -13,6 +13,6 @@ export function showLoader() {
 
 };
 
-export function hideLodar() {
+export function hideLoader() {
 
 };
