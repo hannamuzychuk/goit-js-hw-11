@@ -110,4 +110,6 @@ height: 156px;
 .info p {
   margin: 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
